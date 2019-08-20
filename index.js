@@ -25,8 +25,8 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  n = parseInt(n, 10);
-  return n;
+  n = String(n)
+  return parseInt(n, 10);
 }
 
 function makeInt(n) {
